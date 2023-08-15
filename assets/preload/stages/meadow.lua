@@ -22,6 +22,8 @@ function onCreate()
 	makeLuaSprite('ground', 'ponyfront', -500, 500)
 	addLuaSprite('ground', false)
 
+    setProperty('gf.visible',false)
+    
 end
 
 local xx = 580;
